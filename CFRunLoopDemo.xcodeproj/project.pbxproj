@@ -13,6 +13,9 @@
 		B3568E8920F30951003C4104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3568E8820F30951003C4104 /* Assets.xcassets */; };
 		B3568E8C20F30951003C4104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3568E8A20F30951003C4104 /* LaunchScreen.storyboard */; };
 		B3568E8F20F30951003C4104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3568E8E20F30951003C4104 /* main.m */; };
+		B3568E9720F309FD003C4104 /* CFRunLoop.c in Sources */ = {isa = PBXBuildFile; fileRef = B3568E9520F309FD003C4104 /* CFRunLoop.c */; };
+		B3568E9C20F30A0C003C4104 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3568E9A20F30A0C003C4104 /* YYFPSLabel.m */; };
+		B3568E9D20F30A0C003C4104 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3568E9B20F30A0C003C4104 /* YYWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		B3568E8B20F30951003C4104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3568E8D20F30951003C4104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3568E8E20F30951003C4104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3568E9520F309FD003C4104 /* CFRunLoop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFRunLoop.c; sourceTree = "<group>"; };
+		B3568E9620F309FD003C4104 /* CFRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFRunLoop.h; sourceTree = "<group>"; };
+		B3568E9820F30A0C003C4104 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		B3568E9920F30A0C003C4104 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		B3568E9A20F30A0C003C4104 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		B3568E9B20F30A0C003C4104 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				B3568E8020F30950003C4104 /* AppDelegate.m */,
 				B3568E8220F30950003C4104 /* ViewController.h */,
 				B3568E8320F30950003C4104 /* ViewController.m */,
+				B3568E9820F30A0C003C4104 /* YYFPSLabel.h */,
+				B3568E9A20F30A0C003C4104 /* YYFPSLabel.m */,
+				B3568E9920F30A0C003C4104 /* YYWeakProxy.h */,
+				B3568E9B20F30A0C003C4104 /* YYWeakProxy.m */,
+				B3568E9520F309FD003C4104 /* CFRunLoop.c */,
+				B3568E9620F309FD003C4104 /* CFRunLoop.h */,
 				B3568E8520F30950003C4104 /* Main.storyboard */,
 				B3568E8820F30951003C4104 /* Assets.xcassets */,
 				B3568E8A20F30951003C4104 /* LaunchScreen.storyboard */,
@@ -141,6 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3568E9720F309FD003C4104 /* CFRunLoop.c in Sources */,
+				B3568E9C20F30A0C003C4104 /* YYFPSLabel.m in Sources */,
+				B3568E9D20F30A0C003C4104 /* YYWeakProxy.m in Sources */,
 				B3568E8420F30950003C4104 /* ViewController.m in Sources */,
 				B3568E8F20F30951003C4104 /* main.m in Sources */,
 				B3568E8120F30950003C4104 /* AppDelegate.m in Sources */,

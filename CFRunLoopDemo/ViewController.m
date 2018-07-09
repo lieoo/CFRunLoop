@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LoopViewController.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.title = @"Touch Screen to push";
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    LoopViewController *vc = [[LoopViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 
 @end
+
+
